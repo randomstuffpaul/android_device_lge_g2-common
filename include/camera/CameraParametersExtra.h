@@ -11,6 +11,7 @@ const char CameraParameters::KEY_BEAUTY_SHOT[] = "beauty-shot"; \
 const char CameraParameters::KEY_BEAUTY_SHOT_SUPPORTED[] = "beauty-shot-supported"; \
 const char CameraParameters::KEY_BURST_SHOT[] = "burst-shot"; \
 const char CameraParameters::KEY_BURST_SHOT_SUPPORTED[] = "burst-shot-supported"; \
+const char CameraParameters::KEY_FOCUS_MODE_MANUAL_POSITIONE[] = "manual-positione"; \
 const char CameraParameters::KEY_FOCUS_MODE_OBJECT_TRACKING[] = "object-tracking"; \
 const char CameraParameters::KEY_FOCUS_MODE_OBJECT_TRACKING_SUPPORTED[] = "object-tracking-supported"; \
 const char CameraParameters::KEY_VIDEO_WDR[] = "video-wdr"; \
@@ -19,7 +20,6 @@ const char CameraParameters::VIDEO_WDR_OFF[] = "video-wdr"; \
 const char CameraParameters::VIDEO_WDR_ON[] = "video-wdr"; \
 const char CameraParameters::OBJECT_TRACKING_ON[] = "object-tracking"; \
 const char CameraParameters::OBJECT_TRACKING_OFF[] = "object-tracking";
-
 
 #define CAMERA_PARAMETERS_EXTRA_H \
 static const char AUDIO_ZOOM_OFF[]; \
@@ -34,6 +34,7 @@ static const char KEY_BEAUTY_SHOT[]; \
 static const char KEY_BEAUTY_SHOT_SUPPORTED[]; \
 static const char KEY_BURST_SHOT[]; \
 static const char KEY_BURST_SHOT_SUPPORTED[]; \
+static const char KEY_FOCUS_MODE_MANUAL_POSITIONE[]; \
 static const char KEY_FOCUS_MODE_OBJECT_TRACKING[]; \
 static const char KEY_FOCUS_MODE_OBJECT_TRACKING_SUPPORTED[]; \
 static const char KEY_VIDEO_WDR[]; \
@@ -42,4 +43,3 @@ static const char VIDEO_WDR_OFF[]; \
 static const char VIDEO_WDR_ON[]; \
 static const char OBJECT_TRACKING_ON[]; \
 static const char OBJECT_TRACKING_OFF[];
-
